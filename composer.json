@@ -1,0 +1,24 @@
+{
+  "name": "cpfbuscas-examples/cpfbuscas-consulta-cnpj-php",
+  "type": "project",
+  "description": "Consulta CNPJ e CNPJ por base com PHP e cURL: conferência de empresas pela API CPF Buscas.",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "scripts": {
+    "test": "php tests/run.php"
+  },
+  "keywords": [
+    "php",
+    "cpfbuscas",
+    "api-rest",
+    "curl",
+    "exemplos-php",
+    "consulta-cnpj",
+    "cnpj",
+    "empresas"
+  ]
+}

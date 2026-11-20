@@ -1,0 +1,30 @@
+{
+  "cnpj": {
+    "key": "cnpj",
+    "module": "Empresas e negócios",
+    "label": "CNPJ",
+    "method": "GET",
+    "path": "/api/v1/query/cnpj",
+    "params": [
+      {
+        "name": "cnpj",
+        "label": "CNPJ",
+        "required": true
+      }
+    ]
+  },
+  "cnpj_base": {
+    "key": "cnpj_base",
+    "module": "Empresas e negócios",
+    "label": "CNPJ por base",
+    "method": "GET",
+    "path": "/api/v1/query/cnpj_base",
+    "params": [
+      {
+        "name": "cnpj",
+        "label": "CNPJ",
+        "required": true
+      }
+    ]
+  }
+}
